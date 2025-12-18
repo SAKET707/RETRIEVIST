@@ -206,11 +206,11 @@ cython_debug/
 # ===============================
 .DS_Store
 
+
 # ===============================
 # Streamlit
 # ===============================
 .streamlit/
-
 # Marimo
 marimo/_static/
 marimo/_lsp/
