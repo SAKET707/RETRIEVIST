@@ -32,6 +32,7 @@ It intelligently routes user queries between **direct LLM reasoning**, **externa
 ---
 
 ## 🎬 Demo Walkthrough
+
 <!-- Demo Screenshots -->
 <div align="center">
 
@@ -50,20 +51,40 @@ It intelligently routes user queries between **direct LLM reasoning**, **externa
 
 </div>
 
-In the live demo, **RETRIEVIST** is used to analyze and answer questions based on the following news article:
+In the live demo, **RETRIEVIST** is exercised across multiple real-world scenarios to demonstrate its routing, retrieval, and tool-usage capabilities.
 
-🔗 **India Today article**  
-> *Over 2 lakh giving up Indian citizenship each year — what is behind the exodus to USA, UK, Canada, Australia explained*  
+One of the demonstrations uses a news article from *India Today*:
+
+🔗 *Over 2 lakh giving up Indian citizenship each year — what is behind the exodus to USA, UK, Canada, Australia explained*  
 https://www.indiatoday.in/india/story/over-2-lakh-giving-up-indian-citizenship-each-year-what-is-behind-the-exodus-to-usa-uk-canada-australia-explained-why-2837119-2025-12-18
 
-📌 **Content Credit**  
-All journalistic content used in the demo belongs to **India Today**.  
-RETRIEVIST does **not** claim ownership of the source material.
+> **Credit & Attribution:**  
+> All news articles referenced in this demo are published by **India Today**.  
+> The original content, reporting, and editorial rights belong to their respective authors and **India Today**.  
+> This project analyzes publicly available information strictly for educational and demonstration purposes.
 
-The demo showcases:
-- Web-page ingestion
-- Context-aware questioning
-- Strict reliance on retrieved content
+
+---
+
+### 🔍 What the demo showcases
+
+- 🌐 **Web-based RAG**
+  - Ingestion and questioning over a live news article (India Today)
+- 📖 **Wikipedia tool usage**
+  - Information lookup for publicly available topics such as *Elon Musk*  
+  > No personal profiling, endorsement, or misrepresentation is intended
+- 📄 **Research paper retrieval**
+  - arXiv tool usage to explore findings from  
+    *“Attention Is All You Need”*  
+  > All academic credit and intellectual ownership remain with the original authors
+- 📁 **Document ingestion**
+  - User-provided `.txt` and `.pdf` files uploaded and queried
+- 🧮 **Mathematical reasoning via tool execution**
+  - Evaluation of expressions involving trigonometric, exponential, and logarithmic functions, e.g.:
+
+```text
+(3 * sin(pi / 4)**2 + 2 * cos(pi / 3)) * exp(1) + log(100) / sqrt(16)
+```
 
 ---
 
