@@ -1,37 +1,37 @@
-# 🔍 RETRIEVIST
+# RETRIEVIST
 
 **RETRIEVIST** is a modular, tool-augmented **RAG (Retrieval-Augmented Generation) chatbot** built with **Streamlit, LangChain, Groq LLMs, and Pinecone**.  
 It intelligently routes user queries between **direct LLM reasoning**, **external tools**, and **document-based retrieval**, ensuring **accuracy over hallucination**.
 
-## 🌐 **Live Demo:**  
-👉 https://retrievist-by-saket.streamlit.app/
+## **Live Demo:**  
+- https://retrievist-by-saket.streamlit.app/
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- 📚 **Retrieval-Augmented Generation (RAG)**
+-  **Retrieval-Augmented Generation (RAG)**
   - PDF, text, and web-page ingestion
   - Semantic search powered by Pinecone
-- 🧠 **Router-based intelligence**
+-  **Router-based intelligence**
   - Automatically decides between:
     - General LLM response
     - Tool-enabled agent
     - RAG pipeline
-- 🛠️ **Tool-enabled agent**
+-  **Tool-enabled agent**
   - Wikipedia search
   - arXiv research paper lookup
   - Secure mathematical expression evaluation
-- 🔐 **No hallucinations by design**
+-  **No hallucinations by design**
   - Uses tools only when required
   - Responds *"I don't know"* when information is unavailable
-- ☁️ **Cloud deployed**
+-  **Cloud deployed**
   - Hosted on Streamlit Community Cloud
   - Secrets managed securely 
 
 ---
 
-## 🎬 Demo Walkthrough
+##  Demo Walkthrough
 
 <!-- Demo Screenshots -->
 <div align="center">
@@ -55,7 +55,7 @@ In the live demo, **RETRIEVIST** is exercised across multiple real-world scenari
 
 One of the demonstrations uses a news article from *India Today*:
 
-🔗 *Over 2 lakh giving up Indian citizenship each year — what is behind the exodus to USA, UK, Canada, Australia explained*  
+ *Over 2 lakh giving up Indian citizenship each year — what is behind the exodus to USA, UK, Canada, Australia explained*  
 https://www.indiatoday.in/india/story/over-2-lakh-giving-up-indian-citizenship-each-year-what-is-behind-the-exodus-to-usa-uk-canada-australia-explained-why-2837119-2025-12-18
 
 > **Credit & Attribution:**  
@@ -66,20 +66,20 @@ https://www.indiatoday.in/india/story/over-2-lakh-giving-up-indian-citizenship-e
 
 ---
 
-### 🔍 What the demo showcases
+###  What the demo showcases
 
-- 🌐 **Web-based RAG**
+-  **Web-based RAG**
   - Ingestion and questioning over a live news article (India Today)
-- 📖 **Wikipedia tool usage**
+-  **Wikipedia tool usage**
   - Information lookup for publicly available topics such as *Elon Musk*  
   > No personal profiling, endorsement, or misrepresentation is intended
-- 📄 **Research paper retrieval**
+-  **Research paper retrieval**
   - arXiv tool usage to explore findings from  
     *“Attention Is All You Need”*  
   > All academic credit and intellectual ownership remain with the original authors
-- 📁 **Document ingestion**
+-  **Document ingestion**
   - User-provided `.txt` and `.pdf` files uploaded and queried
-- 🧮 **Mathematical reasoning via tool execution**
+-  **Mathematical reasoning via tool execution**
   - Evaluation of expressions involving trigonometric, exponential, and logarithmic functions, e.g.:
 
 ```text
@@ -88,7 +88,7 @@ https://www.indiatoday.in/india/story/over-2-lakh-giving-up-indian-citizenship-e
 
 ---
 
-## 🧩 Architecture Overview
+##  Architecture Overview
 
 RETRIEVIST follows a **clean, scalable, and extensible architecture** designed for clarity and future growth.
 
@@ -131,7 +131,7 @@ RETRIEVIST/
 ```
 
 ---
-## 🔮 Future Improvements
+##  Future Improvements
 Planned enhancements for upcoming iterations:
 - Pinecone namespaces for multi-user isolation
 - Source citations in RAG responses
